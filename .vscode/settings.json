@@ -1,0 +1,13 @@
+{
+  "terminal.integrated.shell.windows":
+    "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  "window.zoomLevel": 0,
+  "beautify.tabSize": 2,
+  "editor.minimap.enabled": false,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "html.autoClosingTags": false,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  }
+}
