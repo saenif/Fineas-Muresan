@@ -8,6 +8,6 @@
   "editor.formatOnPaste": true,
   "html.autoClosingTags": false,
   "editor.codeActionsOnSave": {
-    "source.organizeImports": true
+    "source.organizeImports": false
   }
 }
