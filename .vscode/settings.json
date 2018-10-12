@@ -4,7 +4,7 @@
   "window.zoomLevel": 0,
   "beautify.tabSize": 2,
   "editor.minimap.enabled": false,
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
   "editor.formatOnPaste": true,
   "html.autoClosingTags": false,
   "editor.codeActionsOnSave": {

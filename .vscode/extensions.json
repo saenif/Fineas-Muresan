@@ -11,7 +11,8 @@
     "WallabyJs.quokka-vscode",
     "rbbit.typescript-hero",
     "DSKWRK.vscode-generate-getter-setter",
-    "esbenp.prettier-vscode"
+    "esbenp.prettier-vscode",
+    "michelemelluso.code-beautifier"
   ],
   // List of extensions recommended by VS Code that should not be recommended for users of this workspace.
   "unwantedRecommendations": []
