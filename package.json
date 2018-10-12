@@ -9,6 +9,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
+    "e2e:watch": "watch \"npm run e2e \" src e2e --wait=1",
     "standardize": "prettier **/*.ts --write"
   },
   "private": true,
@@ -49,7 +50,8 @@
     "protractor": "~5.3.0",
     "ts-node": "~5.0.1",
     "tslint": "~5.9.1",
-    "typescript": "~2.7.2"
+    "typescript": "~2.7.2",
+    "watch": "^1.0.2"
   },
   "prettier": {
     "printWidth": 90,
