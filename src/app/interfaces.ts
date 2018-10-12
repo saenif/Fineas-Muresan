@@ -1,3 +1,5 @@
+import { Observable } from 'rxjs';
+
 export interface ICurrentWeather {
   city: string;
   country: string;
@@ -5,4 +7,8 @@ export interface ICurrentWeather {
   image: string;
   temperature: number;
   description: string;
+}
+
+export interface IWeatherService {
+  getCurrentWeather(city: string, country: string): Observable<ICurrentWeather>;
 }
