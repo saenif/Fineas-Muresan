@@ -11,4 +11,5 @@
     "source.organizeImports": false
   },
   "prettier.singleQuote": true,
+  "workbench.editor.enablePreview": false,
 }
