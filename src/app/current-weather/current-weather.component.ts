@@ -14,12 +14,12 @@ export class CurrentWeatherComponent implements OnInit {
   constructor(private weatherService: WeatherService) {
     // this is a mock data in case that http request fails
     this.current = {
-      city: 'default_city',
-      country: 'default_country',
-      date: 2017,
-      image: 'assets/img/sunny.svg',
-      temperature: 72,
-      description: 'default_weather',
+      city: '',
+      country: '',
+      date: 0,
+      image: '',
+      temperature: 0,
+      description: '',
     } as ICurrentWeather;
   }
 
