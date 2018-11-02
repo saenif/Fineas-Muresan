@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "npm run standardize && ng serve --port 5000",
+    "start": "npm run standardize && ng serve --open --port 5000",
     "build": "npm run standardize && ng build --prod",
     "test": "ng test",
     "test:debug": "ng test --source-map=false",
