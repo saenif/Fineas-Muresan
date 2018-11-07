@@ -1,15 +1,22 @@
 {
-  "terminal.integrated.shell.windows":
-    "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
   "window.zoomLevel": 0,
   "beautify.tabSize": 2,
-  "editor.minimap.enabled": false,
   "editor.formatOnSave": false,
   "editor.formatOnPaste": true,
   "html.autoClosingTags": false,
   "editor.codeActionsOnSave": {
     "source.organizeImports": false
   },
-  "prettier.singleQuote": true,
   "workbench.editor.enablePreview": false,
+  "docker.defaultRegistryPath": "saenif",
+  "git.ignoreMissingGitWarning": true,
+  "explorer.confirmDragAndDrop": false,
+  "markdown.extension.preview.autoShowPreviewToSide": true,
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+  "material-icon-theme.showWelcomeMessage": false,
+  "prettier.singleQuote": true,
+  "editor.minimap.enabled": false,
+  "npm.enableScriptExplorer": true
 }
