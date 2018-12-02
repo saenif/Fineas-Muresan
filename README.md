@@ -42,7 +42,9 @@ docker pull duluca/minimal-node-web-server:8.11.1
 ### Other documentations:
 * Build and run your [First Docker Container]
 
-
+## Zeit now
+check live app
+https://now-ngiqdhnbdo.now.sh
 
 [//]: LINKS:
 
