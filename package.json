@@ -2,8 +2,8 @@
   "name": "weather-web",
   "version": "1.0.0",
   "config": {
-    "imageRepo": "saenif/weather",
-    "imageName": "local_weather",
+    "imageRepo": "saenif/weather-web",
+    "imageName": "weather-web",
     "imagePort": "8080"
   },
   "license": "MIT",
