@@ -42,11 +42,24 @@ docker pull duluca/minimal-node-web-server:8.11.1
 ### Other documentations:
 * Build and run your [First Docker Container]
 
-## Zeit now
-check live app
-https://now-ngiqdhnbdo.now.sh
+## Zeit Now
+
+* install [Zeit Now]
+```
+npm i -g now
+```
+
+* run
+```
+now
+```
+
+* follow the instructions (or copy `.now` directory from the project into `users/<user-name>` directory)
+
+* check [now live app]
 
 [//]: LINKS:
 
 [Docker for Windows]: <https://www.docker.com/get-started>
 [First Docker Container]: <https://blog.docker.com/2016/09/build-your-first-docker-windows-server-container/>
+[now live app]: <https://now-ngiqdhnbdo.now.sh>
