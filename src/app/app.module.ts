@@ -4,10 +4,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { LayoutModule } from '@angular/cdk/layout';
-import {
-  FormsModule,
-  ReactiveFormsModule
-} from "@angular/forms";
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import 'hammerjs';
 
@@ -23,7 +20,7 @@ import { CitySearchComponent } from './city-search/city-search.component';
     AppComponent,
     CurrentWeatherComponent,
     SideNavComponent,
-    CitySearchComponent
+    CitySearchComponent,
   ],
   imports: [
     BrowserModule,
@@ -33,7 +30,7 @@ import { CitySearchComponent } from './city-search/city-search.component';
     FlexLayoutModule,
     LayoutModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
   ],
   providers: [WeatherService],
   bootstrap: [AppComponent],

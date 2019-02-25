@@ -1,8 +1,8 @@
-import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-import { FormsModule, ReactiveFormsModule } from "@angular/forms";
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
-import { MatIconModule, MatInputModule } from "@angular/material";
+import { MatIconModule, MatInputModule } from '@angular/material';
 
 import { CitySearchComponent } from './city-search.component';
 
@@ -17,13 +17,10 @@ describe('CitySearchComponent', () => {
         MatInputModule,
         FormsModule,
         ReactiveFormsModule,
-        BrowserAnimationsModule
+        BrowserAnimationsModule,
       ],
-      declarations: [
-        CitySearchComponent
-      ]
-    })
-      .compileComponents();
+      declarations: [CitySearchComponent],
+    }).compileComponents();
   }));
 
   beforeEach(() => {
