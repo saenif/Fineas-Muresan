@@ -1,4 +1,8 @@
+import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { FormsModule, ReactiveFormsModule } from "@angular/forms";
+
+import { MatIconModule, MatInputModule } from "@angular/material";
 
 import { CitySearchComponent } from './city-search.component';
 
@@ -8,9 +12,18 @@ describe('CitySearchComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ CitySearchComponent ]
+      imports: [
+        MatIconModule,
+        MatInputModule,
+        FormsModule,
+        ReactiveFormsModule,
+        BrowserAnimationsModule
+      ],
+      declarations: [
+        CitySearchComponent
+      ]
     })
-    .compileComponents();
+      .compileComponents();
   }));
 
   beforeEach(() => {
