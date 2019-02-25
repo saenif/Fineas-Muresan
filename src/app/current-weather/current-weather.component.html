@@ -1,6 +1,6 @@
 <div *ngIf="current">
   <div fxLayout="row">
-    <div fxFlex="66%" class="mat-title no-margin">{{current.city}}, {{current.country}} </div>
+    <div fxFlex="66%" class="mat-title no-margin">{{current.cityOrZip}}, {{current.country}} </div>
     <div fxFlex class="right mat-subheading-2 no-margin">
       <div class="no-margin">{{current.date | date: 'EEEE'}}</div>
       <div class="no-margin">{{current.date | date: 'MMM d'}}</div>
