@@ -7,7 +7,7 @@ import {
   MatSidenavModule,
   MatListModule,
   MatFormFieldModule,
-  MatInputModule,
+  MatInputModule
 } from '@angular/material';
 
 @NgModule({
@@ -31,6 +31,6 @@ import {
     MatFormFieldModule,
     MatInputModule
   ],
-  declarations: [],
+  declarations: []
 })
 export class MaterialModule {}

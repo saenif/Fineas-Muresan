@@ -27,5 +27,6 @@ export class CurrentWeatherComponent implements OnInit {
     this.weatherService
       .getCurrentWeather(this.current.cityOrZip, this.current.country)
       .subscribe(data => (this.current = data));
+    this.weatherService.currentWeather.subscribe(data => (this.current = data));
   }
 }

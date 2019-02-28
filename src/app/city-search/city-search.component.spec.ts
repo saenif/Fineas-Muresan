@@ -5,6 +5,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatIconModule, MatInputModule } from '@angular/material';
 
 import { CitySearchComponent } from './city-search.component';
+import { WeatherService } from '../weather/weather.service';
+import { HttpClientModule } from '@angular/common/http';
 
 describe('CitySearchComponent', () => {
   let component: CitySearchComponent;
@@ -18,8 +20,12 @@ describe('CitySearchComponent', () => {
         FormsModule,
         ReactiveFormsModule,
         BrowserAnimationsModule,
+        HttpClientModule
       ],
       declarations: [CitySearchComponent],
+      providers: [
+        WeatherService
+      ]
     }).compileComponents();
   }));
 
