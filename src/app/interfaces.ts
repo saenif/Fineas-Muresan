@@ -1,7 +1,7 @@
 import { Observable } from 'rxjs';
 
 export interface ICurrentWeather {
-  city: string;
+  cityOrZip: string;
   country: string;
   date: number;
   image: string;

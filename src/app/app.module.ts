@@ -20,7 +20,7 @@ import { CitySearchComponent } from './city-search/city-search.component';
     AppComponent,
     CurrentWeatherComponent,
     SideNavComponent,
-    CitySearchComponent,
+    CitySearchComponent
   ],
   imports: [
     BrowserModule,
@@ -30,9 +30,9 @@ import { CitySearchComponent } from './city-search/city-search.component';
     FlexLayoutModule,
     LayoutModule,
     FormsModule,
-    ReactiveFormsModule,
+    ReactiveFormsModule
   ],
   providers: [WeatherService],
-  bootstrap: [AppComponent],
+  bootstrap: [AppComponent]
 })
 export class AppModule {}

@@ -4,7 +4,7 @@ import { ICurrentWeather, IWeatherService } from '../interfaces';
 
 export class WeatherServiceFake implements IWeatherService {
   private fakeWeather: ICurrentWeather = {
-    city: 'Bursa',
+    cityOrZip: 'Bursa',
     country: 'TR',
     date: 1485789600,
     image: '',
@@ -12,7 +12,10 @@ export class WeatherServiceFake implements IWeatherService {
     description: 'light intensity drizzle',
   };
 
-  public getCurrentWeather(city: string, country: string): Observable<ICurrentWeather> {
+  public getCurrentWeather(
+    cityOrZip: string,
+    country: string
+  ): Observable<ICurrentWeather> {
     return of(this.fakeWeather);
   }
 }
